@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     data.forEach((post) => {
       const blogItem = document.createElement("div");
       blogItem.classList.add("blog-item");
-
+g
       const blogTitle = document.createElement("h1");
       blogTitle.classList.add("blog-title");
       blogTitle.textContent = post.title;
